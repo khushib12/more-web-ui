@@ -1,0 +1,27 @@
+.second{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 4% ;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.second1{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.second1 img{
+   
+    height: 40vh; 
+   
+     margin-left: -70px;
+   
+} 
+
+.second1 div{
+    background-color: rgb(241, 205, 211);
+    height: 10vh;
+   
+}
