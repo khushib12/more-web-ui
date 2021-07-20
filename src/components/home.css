@@ -22,6 +22,56 @@
 
 .second1 div{
     background-color: rgb(241, 205, 211);
-    height: 10vh;
+    height: 8vh;
+    margin-top: -4px;
+    padding-left: 35%;
+    padding-top: 10%;
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(90, 86, 86);
+ 
    
+}
+.third{
+    margin-top: 8%;
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
+    background-color: rgb(90, 86, 86);
+    height: 55vh;
+    padding-top: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    color: aliceblue;
+    border-radius: 20px;
+}
+.third1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%    ;
+}
+
+.third h1{
+    font-size: 2.5em;
+}
+
+.third1 h1{
+    font-size: 2em;
+}
+.third2 p{
+    font-size: 1.5em;
+    font-weight: 50;
+}
+
+.third2 button{
+    padding: 4%;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: large    ;
+    color: rgb(90, 86, 86);
+}
+
+.help{
+    margin-top:6px;
 }

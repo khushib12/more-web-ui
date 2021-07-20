@@ -1,10 +1,11 @@
 
 import Home from "./components/home";
+import  Routes from "./route";
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Routes/>
      
     </div>
   );
