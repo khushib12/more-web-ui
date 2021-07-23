@@ -59,7 +59,7 @@ const Shop = () =>{
                     </div>
                     <div  className="s-second12 b">
                     <img src={shoes}></img>
-                    <a>Shoes <i class="fas fa-arrow-right"></i></a>
+                    <a href="/Shoe">Shoes <i class="fas fa-arrow-right"></i></a>
                     </div>
                     <div  className="s-second12 p"> 
                     <img src={cosmetics}></img>

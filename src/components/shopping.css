@@ -35,6 +35,7 @@
     display: block;
     margin-left: 17%;
     margin-top: 15%;
+   
     
       
 }
@@ -68,4 +69,5 @@
     display: inline-block;
     width: 125%;
     margin-left: -10%;
+    text-decoration: none;
 }
