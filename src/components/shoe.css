@@ -82,3 +82,67 @@
 }
 
 
+.shoe-second{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2%;
+}
+
+.shoe-second2{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: -5%;
+    margin-top: 8%;
+    color: #616057;
+    margin-bottom: 10% !important;
+
+}
+
+.shoe-second21{
+    background-color: #f7f5f5;
+    border-radius: 15px;
+    width: 340px;
+    padding: 2%;
+    margin-bottom: 14% !important;
+}
+
+.shoe-second2111 img{
+    height: 280px;
+    width: 330px;
+    border-radius: 15px;
+    margin-left: 5px;
+    object-fit:cover;
+}
+
+.shoe-second211 h2{
+    font-weight: 550;
+}
+
+.r{
+    float: right;
+}
+
+.l{
+    font-weight: 100;
+}
+
+
+.shoe-second211 p{
+    font-weight: 50;
+}
+
+.big{
+    font-size: 1.8em;
+    font-weight: 1000;
+    float: right;
+    position: relative;
+    margin-left: 10%;
+    margin-top: -8%;
+}
+
+.cross{
+    text-decoration:line-through;
+    color: #a8a4a4;
+    margin-left: 6px;
+}

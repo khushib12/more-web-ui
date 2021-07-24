@@ -3,8 +3,14 @@ import "./shoe.css";
 import nike from "./../images/Nike-Shoe.png";
 import shoe_icon from "./../images/shoe-icon.svg";
 import Search from "./../images/search.svg";
-const Shoe = () =>{
+import shoe2 from "./../images/shoe2.png";
+import Rating from "@material-ui/lab/Rating";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box"
 
+const Shoe = () =>{
+    //insert rating from backend here
+    const [value, setValue] = React.useState(2);
     return(
         <div>
             <div className="shoe-first">
@@ -31,6 +37,160 @@ const Shoe = () =>{
 
                
              
+            </div>
+
+            <div  className="shoe-second">
+                <div className="shoe-second1">
+                    <div className="shoe-second11">
+                        <h1>Choose Type</h1>
+                        <div></div>
+
+                    </div>
+
+
+                </div>
+                <div  className="shoe-second2">
+                   <div>
+
+                   <div className="shoe-second21">
+                        <div className="shoe-second211">
+                            <div className="shoe-second2111">
+                                <img src={shoe2}></img>
+                            </div>
+                            <h2>Party Dress</h2>
+                            {/* <Box component="fieldset" mb={3} borderColor="transparent"> */}
+                            {/* <Typography component="legend"></Typography> */}
+                            <Rating name="read-only" value={value} readOnly />
+                        {/* </Box> */}
+                            <h4 className="r">Price</h4>
+                            <p><h4 >Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+                        </div>
+
+                    </div>
+
+                   </div>
+                    
+                  <div>
+
+                  <div className="shoe-second21">
+                        <div className="shoe-second211">
+                            <div className="shoe-second2111">
+                                <img src={shoe2}></img>
+                            </div>
+                            <h2>Party Dress</h2>
+                            <Rating name="read-only" value={value} readOnly />
+                            <h4 className="r">Price</h4>
+                            <p><h4 >Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+                        </div>
+
+                    </div>
+
+                  </div>
+                  <div>
+
+                   <div className="shoe-second21">
+                        <div className="shoe-second211">
+                            <div className="shoe-second2111">
+                                <img src={shoe2}></img>
+                            </div>
+                            <h2>Party Dress</h2>
+                            <Rating name="read-only" value={value} readOnly />
+                            <h4 className="r">Price</h4>
+                            <p><h4>Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+                        </div>
+
+                    </div>
+
+                   </div>
+                    
+                  <div>
+
+                  <div className="shoe-second21">
+                        <div className="shoe-second211">
+                            <div className="shoe-second2111">
+                                <img src={shoe2}></img>
+                            </div>
+                            <h2>Party Dress</h2>
+                            <Rating name="read-only" value={value} readOnly />
+                            <h4 className="r">Price</h4>
+                            <p><h4>Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+                        </div>
+
+                    </div>
+
+                  </div>
+                  <div>
+
+<div className="shoe-second21">
+     <div className="shoe-second211">
+         <div className="shoe-second2111">
+             <img src={shoe2}></img>
+         </div>
+         <h2>Party Dress</h2>
+         <h4 className="r">Price</h4>
+         <Rating name="read-only" value={value} readOnly />
+         <p><h4>Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+     </div>
+
+ </div>
+
+</div>
+ 
+<div>
+
+<div className="shoe-second21">
+     <div className="shoe-second211">
+         <div className="shoe-second2111">
+             <img src={shoe2}></img>
+         </div>
+         <h2>Party Dress</h2>
+         <h4 className="r">Price</h4>
+         <Rating name="read-only" value={value} readOnly />
+         <p><h4>Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+     </div>
+
+ </div>
+
+</div>
+<div>
+
+                   <div className="shoe-second21">
+                        <div className="shoe-second211">
+                            <div className="shoe-second2111">
+                                <img src={shoe2}></img>
+                            </div>
+                            <h2>Party Dress</h2>
+                            <h4 className="r">Price</h4>
+                            <Rating name="read-only" value={value} readOnly />
+                            <p><h4>Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+                        </div>
+
+                    </div>
+
+                   </div>
+                    
+                  <div>
+
+                  <div className="shoe-second21">
+                        <div className="shoe-second211">
+                            <div className="shoe-second2111">
+                                <img src={shoe2}></img>
+                            </div>
+                            <h2>Party Dress</h2>
+                            <Rating name="read-only" value={value} readOnly />
+                            <h4 className="r">Price</h4>
+                            <p><h4>Seller : Silicon Inc.   <span className="cross">  AED799 </span><span className="big">AED599</span></h4></p>
+                        </div>
+
+                    </div>
+
+                  </div>
+
+
+                    
+
+                </div>
+                
             </div>
         </div>
 
